@@ -1,0 +1,29 @@
+.cards >div{
+    
+    margin-top: 50px;
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/* @media screen and (max-width: 910px){
+    .cards{
+        display: block;
+       
+    }
+} */
+.cover{
+    background-color: #1C1C1C;
+    color: aliceblue;
+    border-radius: 18px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13px;  
+}
+.cover > p{
+    font-size: 20px;
+
+}

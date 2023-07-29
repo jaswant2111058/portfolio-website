@@ -1,0 +1,44 @@
+
+.cove{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projectDisplay{
+    margin-left: auto;
+    margin-right: auto;
+ 
+    cursor: pointer;
+}
+.projectDisplay::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+  }
+  .projectDisplay::-webkit-scrollbar-thumb {
+    background:#1C1C1C;
+    border-radius: 10px;
+  }
+  .projectDisplay::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .img{
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+  .coatpiece,.videochat,.chatboats{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+  }
+  .img1{
+    height: 280px;
+    width: 250px;
+  }
+  .content{
+    height: 300px;
+    width: 300px;
+  }
+ 
