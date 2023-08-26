@@ -4,9 +4,9 @@ import './projects.css'
 const Projects=()=>{
     return(
         <>
-        <div className="project">
-            <div className="cove">
-                <h2>Projects : </h2>
+        <div className="project" >
+            <div className="cove" >
+                <h2 id="Project">Projects : </h2>
             </div>
             <div className='projectDisplay'>
                 <div className='coatpiece'>
@@ -71,7 +71,7 @@ const Projects=()=>{
                     <br></br>
                     <hr></hr>
                     <br></br>
-                <div className='chatboats'>
+                {/* <div className='chatboats'>
                 <div className='content'>
                     <h3>Chat Boat</h3>
                     <p><b>Description:</b>
@@ -101,10 +101,10 @@ const Projects=()=>{
                    
                
                
-                </div>
+                </div> */}
             </div>
             <br></br>
-            <hr></hr>
+            
             <br></br>
         </div>
 

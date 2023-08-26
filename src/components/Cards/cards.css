@@ -6,7 +6,7 @@
 .cards{
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 /* @media screen and (max-width: 910px){
     .cards{

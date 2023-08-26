@@ -15,9 +15,9 @@ const Chatboat=()=>{
         
         const[qsnAns,setQsnAns] = useState([])
        // const[counter,setCounter] = useState(0)
-        var chatsetup = qsnAns.map((data)=>{
+        let chatsetup = qsnAns.map((data)=>{
                 
-                if(data[data.length-1]==='.')
+                if(data[data.length-1]===' ')
                 {
                     
                 return (
@@ -48,11 +48,10 @@ const Chatboat=()=>{
             var messageBody = document.getElementById('chat');
              messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
 
-            const question = document.getElementById("chatinput").value+'.';
+            const question = document.getElementById("chatinput").value+' ';
            let text = question.toLowerCase()
             document.getElementById("chatinput").value='';
             if(question!=="."){
-                //setQsnAns([...qsnAns,question])
                 var arry = qsnAns;
                 arry.push(question)
                 setQsnAns(arry);
@@ -68,7 +67,6 @@ const Chatboat=()=>{
                 window.alert("Enter some Test")
             }
             
-            
          }
          useEffect(()=>{
             document.getElementById("chat").scrollTop = document.getElementById("chat").scrollHeight;
@@ -78,36 +76,23 @@ const Chatboat=()=>{
 //             console.log(matches.bestMatch.rating+" "+matches.bestMatchIndex) 
     return(
         <>
+        
          <div className="chatboat" id="chatbot">
             <div className="cover">
-                <p>My Chat Boat</p>
+                <p>My Chat Bot</p>
             </div>
             <div className="instraction" id="instraction" >
-                Contrary to popular belief, Lorem Ipsum is not simply random text.
-                 It has roots in a piece of classical Latin literature from 45 BC,
+                This is not a AI Based chat Bot,
+                It work on the basis of finding best 
+                similar question in its data base with
+                 the Question provided By Asker and 
+                 give Answer respected to the Question
+                  which is preset
             </div>
             <button id="start" onClick={startChat}> Start </button>
             <div className='chat' id="chat">
 
                 {chatsetup}
-            {/* <div className='chat-boat'>
-                <p>Hiii...saertcfghjnm,;lnbvcvhjkl,mnbvcvbjkl;'ygjhjkkjhvhjk.</p>
-            </div>
-            <div className='chat-user'>
-                <p>Hiii....</p>
-            </div>
-            <div className='chat-boat'>
-                <p>Hiii...saertcfghjnm,;lnbvcvhjkl,mnbvcvbjkl;'ygjhjkkjhvhjk.</p>
-            </div>
-            <div className='chat-user'>
-                <p>Hiii....</p>
-            </div>
-            <div className='chat-boat'>
-                <p>Hiii...saertcfghjnm,;lnbvcvhjkl,mnbvcvbjkl;'ygjhjkkjhvhjk.</p>
-            </div>
-            <div className='chat-user'>
-                <p>Hiii....styhbjkpohgftyujnml;chgyuyghiojhbjopjbjopbvguihjbjkopkjbjk</p>
-            </div> */}
             <div className='show' id="show">
                 <h4>Ask Something About Me...</h4>
             </div>
