@@ -14,8 +14,8 @@ const Hero=()=>{
     <div className="constrain">
         <h1>Jaswant kushwaha</h1>
         <h3>Full Stack Devloper</h3>
-        <p>Motivated and aspiring Web Developer seeking an
-             internship opportunity to gain practical experience
+        <p>Motivated and aspiring Web Developer seeking for 
+             batter opportunity to gain practical experience
               and apply acquired knowledge in web development.
                Eager to contribute to a dynamic team, learn
                 from experienced professionals, and enhance 
