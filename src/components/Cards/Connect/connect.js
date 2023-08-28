@@ -14,6 +14,7 @@ const Connect=()=>{
                 <h4>All Social Medial Hendals Are Here</h4>
             </div>
             <button className="btn1" ><a  className='ancherTag2' href='https://wa.me/+918766263593'>Message Me</a></button>
+            <button className="btn1" ><a  className='ancherTag2' href='https://drive.google.com/file/d/1qAS3UsHIjC1QNuhmnkNnjALoiJNrtEwF/view?usp=sharing'>RESUME</a></button>
         
             <div className="icons">
                 <a className='ancherTag' href='https://github.com/jaswant2111058'><AiFillGithub/></a>
