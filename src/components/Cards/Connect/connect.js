@@ -5,7 +5,7 @@ const Connect=()=>{
     return(
         <>
         
-        <div className="contact" id='contact'>
+        <div className="contact" >
             <div className="cover">
                 <p>Connect With Me</p>
             </div>

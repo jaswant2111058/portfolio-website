@@ -6,8 +6,6 @@
 .projectDisplay{
     margin-left: auto;
     margin-right: auto;
- 
-    cursor: pointer;
 }
 .projectDisplay::-webkit-scrollbar {
     width: 2px;

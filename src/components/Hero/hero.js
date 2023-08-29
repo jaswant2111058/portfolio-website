@@ -9,11 +9,11 @@ const Hero=()=>{
         <img className="dpimg" src="./images/JACK.jpg" alt="img"/>
     </div>
         <div className="midline">
-        <h4>WEB DEVLOPER </h4>
+        <h4>WEB DEVELOPER </h4>
     </div>
     <div className="constrain">
         <h1>Jaswant kushwaha</h1>
-        <h3>Full Stack Devloper</h3>
+        <h3>Full Stack Developer</h3>
         <p>Motivated and aspiring Web Developer seeking for 
              batter opportunity to gain practical experience
               and apply acquired knowledge in web development.

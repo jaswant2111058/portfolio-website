@@ -17,7 +17,7 @@ const Projects=()=>{
                     It is a multiplayer Card Game which played among only 4 players
                     It has 6 screens, 2 for the creating a room space to connecting all four players, 2 four selecting the trump sui, 1 for the playing Card game, 1 for the restart the game After ending 
                     Technologies Used: React, Node JS, WEB Socket (socket.io), HTML, CSS
-                    <br></br>Link: 
+                    <br></br> 
                     <a href='https://coatpeicebyjassi.onrender.com'> See live</a>
                     <br></br>
                     Git-repo: 
@@ -47,7 +47,7 @@ const Projects=()=>{
                     It is a Video calling app which can handle 10 request at a time (according to the server).
                     It Create Room, Join room page and a calling space which is based on WEB RTC and uses the FIREBASE for real time communication.
                     Technologies Used: React ,Fire Base, JS, CSS
-                    <br></br>Link: 
+                    <br></br> 
                     <a href='https://videochatbyjassi.onrender.com'> See live</a>
                     <br></br> Git-Repo:
                    <a href='https://github.com/jaswant2111058/videochat_reactApp'>Visit</a>

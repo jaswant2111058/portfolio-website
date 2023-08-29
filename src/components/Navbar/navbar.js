@@ -8,7 +8,7 @@ const  Navbar =()=>{
                 <>
         
         <div className="navbar" id="navbar">
-        <div className='navBtn' onClick={()=> {document.getElementById('nav2').style.height='240px'}} ><AiOutlineBars/></div>
+        <button className='navBtn' onClick={()=> {document.getElementById('nav2').style.height='240px'}} ><AiOutlineBars/></button>
         <div className="nav1">
             <AnchorLink id='ancher1' href="#navbar">HOME</AnchorLink>
             <AnchorLink id='ancher1' href="#Project"> PROJECT</AnchorLink>

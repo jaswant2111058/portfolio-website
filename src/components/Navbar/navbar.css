@@ -2,7 +2,6 @@
     display: flex;
     justify-content: right;
     font-size: 1rem;
-    cursor: pointer;
     margin-top: 1rem;
     transition: 1000ms;
     font-family:serif;
@@ -41,6 +40,7 @@
 }
 
 .navBtn{
+    display: block;
     margin-top: 5px;
     padding: 0.3rem 1rem;
     border-top-left-radius: 50px 50px;
