@@ -5,7 +5,9 @@
 }
 .cards{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    gap:10rem
     
 }
 /* @media screen and (max-width: 910px){

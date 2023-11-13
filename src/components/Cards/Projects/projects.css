@@ -32,11 +32,17 @@
     height: 280px;
     width: 250px;
   }
+  .img2{
+    height: 450px;
+    width: 250px;
+  }
   .content{
     height: 300px;
     width: 300px; 
+     text-align: justify;
   }
   .project{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
   }
  

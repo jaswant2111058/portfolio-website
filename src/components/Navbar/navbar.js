@@ -19,7 +19,7 @@ const  Navbar =()=>{
         <div className="nav2" id='nav2'>
             <h3><AiOutlineClose onClick={()=>{document.getElementById('nav2').style.height='0px'}}/></h3> 
             <AnchorLink id='ancher' href="#navbar">HOME</AnchorLink>
-            <AnchorLink id='ancher' href="#Project"> PROJECT</AnchorLink>
+            <AnchorLink id='ancher' href="#project"> PROJECT</AnchorLink>
             <AnchorLink id='ancher' href="#contact"> MASSAGE ME</AnchorLink>
             <AnchorLink id='ancher' href="#chatbot"> CHAT BOT</AnchorLink>
             <p id='ancher' onClick={()=>{window.alert("Your are Not Admin")}}>ADMIN LOGIN</p>

@@ -1,42 +1,37 @@
 .midline{
-    width: 100%;
-    height: 12rem;
-    background-color: #1C1C1C;
     margin-top: 10rem;
     display: flex;
     justify-content: center;
     color: aliceblue;
 }
-.midline > h4{
-        margin-top: 150px;
-}
+
 .dpimg{
+    display: block;
+    mix-blend-mode: darken;
     margin-top: 1.5rem;
-    width: 15rem;
+    width: 280px;
     border-radius: 100%;
-    align-items: center;
-    z-index: 2;
-    position: absolute; 
-    
+    margin-left: auto;
+    margin-right: auto;
 }
-.image{
-    display: flex;
-    justify-content: center;
+.image-wrapper{
+    margin-left: 30px;
+    max-width: 350px;
+    margin-bottom: 60px;
 }
 .constrain{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 2rem;
-    text-align: center;
-    max-width: 400px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 400px;
+   
 }
 .prjt{
     margin: 20px;
 }
 .constrain > h3{
-
     margin: 5px;
     color: #626264;
 }
