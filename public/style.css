@@ -6,15 +6,14 @@
 body{
 
     background-image: url("./images/leone-venter-VieM9BdZKFo-unsplash.jpg");
-    background-repeat: repeat;
-    background-size: 100vw;
+    
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   
 }
 @media (max-width: 500px) {
 
-    body {
-        background-repeat: no-repeat;
-        background-image: none;
-    }
     .image-wrapper{
         margin-left: auto;
         margin-right: auto;
