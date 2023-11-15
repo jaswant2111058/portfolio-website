@@ -67,8 +67,7 @@ const Projects = () => {
                                 React Native,
                                 Node js
                                 <br></br>Link:
-                                <a href=' https://drive.google.com/file/d/1e3dqm5Wr3of8kcaT
-                            4f0CcuPtXAaC9AMP/view'> See live</a>
+                                <a href=' https://drive.google.com/file/d/1e3dqm5Wr3of8kcaT4f0CcuPtXAaC9AMP/view'> See live</a>
                                 <br></br> Git-Repo:
                                 <a href='https://github.com/jaswant2111058/foodorder-react-native'>Visit</a>
                             </p>
